@@ -11,9 +11,9 @@ services:
       - key: NODE_VERSION
         value: 20.9.0
       - key: MONGO_URI
-        sync: false
+        value: mongodb://placeholder-db-url
       - key: JWT_SECRET
-        sync: false
+        value: placeholder-secret-key
 
   - type: web
     name: fitness-ml-service
