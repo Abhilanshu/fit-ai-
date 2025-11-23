@@ -7,48 +7,64 @@ const knowledgeBase = [
         response: "Hello! I'm your FitAI assistant. I can help you with workout plans, nutrition advice, or motivation. What's on your mind?"
     },
     {
-        keywords: ['weight loss', 'lose weight', 'fat loss', 'burn fat', 'slimming'],
-        response: "For effective weight loss, aim for a calorie deficit of 300-500 calories below your TDEE. Combine this with high-intensity interval training (HIIT) and strength training to preserve muscle. Our 'Weight Loss & HIIT' program is perfect for this!"
+        keywords: ['indian', 'desi', 'roti', 'dal', 'rice'],
+        response: "Indian diets are great for fitness! For weight loss, focus on Dal, Sabzi, and Roti (multigrain). Avoid excessive oil and sugar. For muscle gain, increase protein with Paneer, Soya Chunks, Chicken, and Eggs alongside Rice or Roti."
     },
     {
-        keywords: ['muscle', 'gain', 'build', 'hypertrophy', 'bulk'],
-        response: "To build muscle, focus on progressive overload—gradually increasing weights or reps. Ensure you're consuming enough protein (1.6-2.2g per kg of bodyweight) and are in a slight calorie surplus. Compound lifts like squats and deadlifts are essential."
+        keywords: ['vegetarian', 'veg', 'protein veg'],
+        response: "Top vegetarian protein sources include Paneer, Soya Chunks, Tofu, Lentils (Dal), Chickpeas (Chana), Greek Yogurt, and Whey Protein. You can easily hit your protein goals with these!"
     },
     {
-        keywords: ['diet', 'nutrition', 'food', 'eat', 'meal'],
-        response: "Nutrition is 80% of the battle. Focus on whole, unprocessed foods. Prioritize lean proteins (chicken, fish, tofu), complex carbs (oats, quinoa, sweet potato), and healthy fats (avocado, nuts). Check your dashboard for a personalized meal plan!"
+        keywords: ['weight loss', 'lose weight', 'fat loss', 'burn fat', 'slimming', 'cut'],
+        response: "To lose weight, you need a calorie deficit. Try our 'Indian Weight Loss' plan! Eat high-protein meals like Moong Dal and Paneer to stay full. Combine this with HIIT workouts to burn more calories."
+    },
+    {
+        keywords: ['muscle', 'gain', 'build', 'hypertrophy', 'bulk', 'size'],
+        response: "Building muscle requires a calorie surplus and progressive overload. Eat protein-rich foods like Chicken, Eggs, or Soya every 3-4 hours. Focus on compound lifts like Squats and Deadlifts."
+    },
+    {
+        keywords: ['belly fat', 'stomach', 'abs'],
+        response: "You can't spot-reduce belly fat, but a calorie deficit will reduce overall body fat. Core exercises like Planks and Russian Twists will strengthen your abs, making them visible as you lose fat."
+    },
+    {
+        keywords: ['diet', 'nutrition', 'food', 'eat', 'meal', 'breakfast', 'lunch', 'dinner'],
+        response: "Nutrition is key! Focus on whole foods. For breakfast, try Poha with peanuts or Eggs. Lunch can be Roti/Rice with Dal and Sabzi. Dinner should be lighter, like Grilled Paneer or Chicken Salad."
+    },
+    {
+        keywords: ['water', 'hydration', 'drink'],
+        response: "Stay hydrated! Aim for 3-4 liters of water daily. It helps with metabolism, muscle recovery, and energy levels. Drink a glass of water before meals to help with portion control."
+    },
+    {
+        keywords: ['supplements', 'creatine', 'whey', 'bcaa'],
+        response: "Supplements are helpful but not magic. Whey Protein is great for hitting protein goals. Creatine Monohydrate (3-5g/day) is excellent for strength and muscle performance. Focus on real food first!"
     },
     {
         keywords: ['squat', 'legs', 'quads'],
-        response: "The squat is the king of leg exercises. Keep your chest up, back straight, and drive through your heels. Ensure your knees track over your toes but don't cave inward. Go to at least parallel depth for full activation."
+        response: "Squats are the king of exercises! Keep your back straight, chest up, and drive through your heels. Go deep (thighs parallel to floor) for maximum benefit."
     },
     {
         keywords: ['bench press', 'chest', 'push'],
-        response: "For bench press, keep your feet planted, arch your back slightly, and retract your shoulder blades. Lower the bar to your mid-chest and press up explosively. Don't flair your elbows out too much to protect your shoulders."
+        response: "For a big chest, focus on Bench Press. Retract your shoulder blades, arch slightly, and control the weight on the way down. Don't bounce the bar off your chest!"
     },
     {
         keywords: ['deadlift', 'back', 'pull'],
-        response: "The deadlift targets your entire posterior chain. Keep the bar close to your shins, engage your lats, and hinge at the hips. Lift with your legs, not just your back. Keep your spine neutral throughout the movement."
+        response: "Deadlifts build the whole back chain. Keep the bar close to your legs, keep your spine neutral, and lift with your legs and hips, not just your lower back."
     },
     {
-        keywords: ['protein', 'macros'],
-        response: "Protein is crucial for repair and growth. Good sources include eggs, chicken breast, greek yogurt, lentils, and whey protein. Aim for 20-30g per meal to maximize muscle protein synthesis."
+        keywords: ['cardio', 'running', 'treadmill'],
+        response: "Cardio is great for heart health and burning calories. For fat loss, try HIIT (sprints). For endurance, steady-state running or cycling is best. Do cardio AFTER weights for muscle preservation."
     },
     {
-        keywords: ['sleep', 'recovery', 'rest'],
-        response: "Recovery is when the growth happens! Aim for 7-9 hours of quality sleep. Active recovery like walking or yoga on rest days can also help reduce soreness and improve blood flow."
-    },
-    {
-        keywords: ['progress', 'track', 'log'],
-        response: "You can track your progress directly in the Dashboard. Mark exercises as complete to see your daily progress bar fill up. Consistency is key!"
+        keywords: ['rest', 'sleep', 'recovery'],
+        response: "Muscles grow while you sleep! Aim for 7-9 hours of quality sleep. Overtraining can stall progress, so take at least 1-2 rest days per week."
     },
     {
         keywords: ['motivation', 'tired', 'give up', 'hard'],
-        response: "Remember why you started! Progress is rarely linear. Some days will be hard, but showing up on those days matters the most. You've got this! Take a rest day if you need it, but don't quit."
+        response: "Consistency > Intensity. Even a bad workout is better than no workout. Remember why you started! You're building a better version of yourself."
     },
     {
         keywords: ['features', 'app', 'website'],
-        response: "This app offers AI-generated workout and diet plans, progress tracking, expert video programs, and this chat assistant! We're also working on community challenges and a recipe generator."
+        response: "This app offers AI-generated Indian diet plans, workout schedules, progress tracking, and a 3D muscle map. Check your Dashboard for your personalized plan!"
     }
 ];
 
