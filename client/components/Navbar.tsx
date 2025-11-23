@@ -57,7 +57,8 @@ const Navbar = () => {
                     {isAuthenticated ? (
                         <>
                             <Link href="/dashboard" className="text-gray-300 hover:text-white transition-colors">Dashboard</Link>
-                            <Link href="#contact" className="text-gray-300 hover:text-white transition-colors">Contact</Link>
+                            <Link href="/profile" className="text-gray-300 hover:text-white transition-colors">Profile</Link>
+                            <Link href="/contact" className="text-gray-300 hover:text-white transition-colors">Contact</Link>
                             <button
                                 onClick={handleLogout}
                                 className="px-6 py-2 bg-red-600 hover:bg-red-700 text-white rounded-full transition-all"
@@ -97,7 +98,8 @@ const Navbar = () => {
                     {isAuthenticated ? (
                         <>
                             <Link href="/dashboard" className="text-gray-300 hover:text-white text-lg" onClick={() => setIsOpen(false)}>Dashboard</Link>
-                            <Link href="#contact" className="text-gray-300 hover:text-white text-lg" onClick={() => setIsOpen(false)}>Contact</Link>
+                            <Link href="/profile" className="text-gray-300 hover:text-white text-lg" onClick={() => setIsOpen(false)}>Profile</Link>
+                            <Link href="/contact" className="text-gray-300 hover:text-white text-lg" onClick={() => setIsOpen(false)}>Contact</Link>
                             <button
                                 onClick={() => { handleLogout(); setIsOpen(false); }}
                                 className="px-6 py-3 bg-red-600 hover:bg-red-700 text-white rounded-lg text-center"

@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import api from '@/lib/api';
 import { Activity, Utensils, Calendar, TrendingUp, CheckCircle2, Circle, Target } from 'lucide-react';
 import MuscleMap from '@/components/MuscleMap';
+import WorkoutTimer from '@/components/WorkoutTimer';
 
 export default function Dashboard() {
     const router = useRouter();
@@ -158,6 +159,11 @@ export default function Dashboard() {
                             {/* 3D Muscle Map */}
                             <div className="mb-8">
                                 <MuscleMap />
+                            </div>
+
+                            {/* Workout Timer */}
+                            <div className="mb-8">
+                                <WorkoutTimer />
                             </div>
 
                             {/* Workout Section */}

@@ -13,7 +13,8 @@ export default function Features() {
             icon: <Brain className="w-6 h-6 text-purple-400" />,
             color: "from-purple-500/20 to-blue-500/20",
             border: "group-hover:border-purple-500/50",
-            detail: "Our advanced ML algorithms analyze your performance after every session to adjust weights, sets, and reps for optimal growth."
+            detail: "Our advanced ML algorithms analyze your performance after every session to adjust weights, sets, and reps for optimal growth.",
+            link: "/dashboard"
         },
         {
             title: "Smart Nutrition",
@@ -21,7 +22,8 @@ export default function Features() {
             icon: <Utensils className="w-6 h-6 text-green-400" />,
             color: "from-green-500/20 to-emerald-500/20",
             border: "group-hover:border-green-500/50",
-            detail: "Get precise calorie and macro targets. We generate full meal plans including breakfast, lunch, dinner, and snacks."
+            detail: "Get precise calorie and macro targets. We generate full meal plans including breakfast, lunch, dinner, and snacks.",
+            link: "/nutrition"
         },
         {
             title: "Progress Tracking",
@@ -29,7 +31,8 @@ export default function Features() {
             icon: <TrendingUp className="w-6 h-6 text-orange-400" />,
             color: "from-orange-500/20 to-red-500/20",
             border: "group-hover:border-orange-500/50",
-            detail: "Track every rep and meal. See your consistency streak and weight trends on beautiful interactive charts."
+            detail: "Track every rep and meal. See your consistency streak and weight trends on beautiful interactive charts.",
+            link: "/progress"
         },
         {
             title: "Wearable Sync",
@@ -37,7 +40,8 @@ export default function Features() {
             icon: <Activity className="w-6 h-6 text-red-400" />,
             color: "from-red-500/20 to-pink-500/20",
             border: "group-hover:border-red-500/50",
-            detail: "Automatically import your steps, heart rate, and sleep data to fine-tune your recovery recommendations."
+            detail: "Automatically import your steps, heart rate, and sleep data to fine-tune your recovery recommendations.",
+            link: "/wearables"
         },
         {
             title: "Expert Chat",
@@ -45,7 +49,8 @@ export default function Features() {
             icon: <MessageCircle className="w-6 h-6 text-indigo-400" />,
             color: "from-indigo-500/20 to-blue-500/20",
             border: "group-hover:border-indigo-500/50",
-            detail: "Have a question about form? Need a substitution? Chat instantly with our expert bot or book a human trainer."
+            detail: "Have a question about form? Need a substitution? Chat instantly with our expert bot or book a human trainer.",
+            link: "/contact"
         },
         {
             title: "Sleep Analysis",
@@ -53,7 +58,8 @@ export default function Features() {
             icon: <Moon className="w-6 h-6 text-teal-400" />,
             color: "from-teal-500/20 to-cyan-500/20",
             border: "group-hover:border-teal-500/50",
-            detail: "We analyze your sleep quality to recommend rest days or lighter sessions when your body needs recovery."
+            detail: "We analyze your sleep quality to recommend rest days or lighter sessions when your body needs recovery.",
+            link: "/sleep"
         }
     ];
 
@@ -99,7 +105,7 @@ export default function Features() {
                                     <p className="text-xs text-gray-500 pt-4 border-t border-gray-800/50 mb-4">
                                         {feature.detail}
                                     </p>
-                                    <a href="/dashboard" className="inline-block px-4 py-2 bg-white text-black text-xs font-bold rounded-full hover:bg-gray-200 transition-colors">
+                                    <a href={feature.link} className="inline-block px-4 py-2 bg-white text-black text-xs font-bold rounded-full hover:bg-gray-200 transition-colors">
                                         Try it now
                                     </a>
                                 </div>
