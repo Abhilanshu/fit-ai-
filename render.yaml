@@ -8,6 +8,8 @@ services:
     envVars:
       - key: NODE_ENV
         value: production
+      - key: NODE_VERSION
+        value: 20.9.0
       - key: MONGO_URI
         sync: false
       - key: JWT_SECRET
@@ -30,6 +32,8 @@ services:
     buildCommand: npm install && npm run build
     startCommand: npm start
     envVars:
+      - key: NODE_VERSION
+        value: 20.9.0
       - key: NEXT_PUBLIC_API_URL
         fromService:
           type: web
